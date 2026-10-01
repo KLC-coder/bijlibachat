@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BijliBachat App Map</title>
+    <style>
+      body {
+        font-family: Inter, 'Segoe UI', sans-serif;
+        margin: 0;
+        background: linear-gradient(180deg, #020817, #0f172a);
+        color: #e2e8f0;
+      }
+      .wrap {
+        width: min(1000px, calc(100% - 28px));
+        margin: 40px auto;
+      }
+      .card {
+        background: rgba(15, 23, 42, 0.8);
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 24px;
+        padding: 24px;
+        box-shadow: 0 22px 40px rgba(15, 23, 42, 0.12);
+      }
+      h1 {
+        margin: 0 0 16px;
+        font-size: 2rem;
+      }
+      .map {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+        margin-top: 24px;
+      }
+      .node {
+        background: rgba(15, 118, 110, 0.14);
+        border: 1px solid rgba(45, 212, 191, 0.22);
+        border-radius: 18px;
+        padding: 18px;
+      }
+      .node h2 {
+        margin: 0 0 8px;
+        font-size: 1.05rem;
+      }
+      .node p {
+        margin: 0;
+        color: #dbeafe;
+        line-height: 1.7;
+      }
+      .arrow {
+        text-align: center;
+        font-size: 1.8rem;
+        color: #7dd3fc;
+        line-height: 1;
+        padding-top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>BijliBachat App Map</h1>
+        <p>One-page energy planning flow for a household user.</p>
+
+        <div class="map">
+          <div class="node">
+            <h2>1. Add appliances</h2>
+            <p>Use quick-add chips or the custom form to enter name, quantity, watts, and daily hours.</p>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="node">
+            <h2>2. Calculate load</h2>
+            <p>Each item calculates daily kWh and 30-day usage; totals update instantly.</p>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="node">
+            <h2>3. Set target</h2>
+            <p>Enter a desired monthly reduction such as 50 units and click “Reduce My Bill”.</p>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="node">
+            <h2>4. Protect essentials</h2>
+            <p>Fans, study lights, and refrigerators stay protected while adjustable loads are evaluated.</p>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="node">
+            <h2>5. Get action plan</h2>
+            <p>See a realistic daily savings schedule with exact runtime cuts and clear recommendations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
