@@ -1,16 +1,21 @@
-# React + Vite
+# ⚡ BijliBachat — Smart Home Electricity Load & Bill Optimizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+BijliBachat is a consumer-focused web application designed to help households track daily/monthly electricity consumption in kWh units and achieve monthly savings targets without sacrificing basic living comfort.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
+- **Appliance Load Calculator:** Compute daily kWh and monthly 30-day unit usage for household loads.
+- **Essential Load Protection:** Protects critical appliances (fans, refrigerators, essential lights) from runtime reductions.
+- **Smart Bill Reduction Engine:** Recommends targeted daily schedule adjustments exclusively on high-load, flexible appliances (AC, geysers).
+- **Tariff Slab Awareness:** Helps households stay below expensive electricity tariff slabs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- React + Vite
+- Tailwind CSS
+- Vanilla JavaScript State & Calculation Engine
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📋 Devpost Skill Pack Artifacts
+Planning documents generated via the Devpost Skill Pack:
+- `devpost/scope.md`
+- `devpost/prd.md`
+- `devpost/spec.md`
+- `devpost/checklist.md`
