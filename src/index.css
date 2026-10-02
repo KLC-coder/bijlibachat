@@ -1,15 +1,15 @@
 :root {
-  font-family: Inter, 'Segoe UI', sans-serif;
-  color: #e2e8f0;
+  font-family: 'Aptos', 'Trebuchet MS', sans-serif;
+  color: #20383e;
   background:
-    radial-gradient(circle at top, rgba(14, 165, 233, 0.16), transparent 34%),
-    linear-gradient(180deg, #020817 0%, #0f172a 40%, #111827 100%);
+    radial-gradient(circle at 12% 10%, rgba(255, 255, 255, 0.75), transparent 28%),
+    linear-gradient(135deg, #a4eeea 0%, #b7e9e4 48%, #d2f1ec 100%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 * {
@@ -28,7 +28,8 @@ body {
 }
 
 button,
-input {
+input,
+a {
   font: inherit;
 }
 
